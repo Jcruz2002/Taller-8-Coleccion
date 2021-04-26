@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Editorial">
+  <ClassDiagramComponents>
+    <Class name="Publicacion" package="" visibility="public" xPosition="554.0" yPosition="89.0">
+      <Fields>
+        <Field name="Titulo" type="String" visibility="private"/>
+        <Field name="Precio" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Libro" package="" visibility="public" xPosition="379.0" yPosition="299.0">
+      <Fields>
+        <Field name="NPagina" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="CD" package="" visibility="public" xPosition="756.0" yPosition="285.0">
+      <Fields>
+        <Field name="Minutos" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="CD" target="Publicacion"/>
+    <IsRelation name="is" source="Libro" target="Publicacion"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
